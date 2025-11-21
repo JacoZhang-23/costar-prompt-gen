@@ -8,3 +8,5 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 部署到 Streamlit Cloud: 上传本仓库后在 share.streamlit.io 连接 GitHub 部署。
+
+目前的app地址: https://costar-prompt-gen-ly5rcwmkngxgwjvjdya9ts.streamlit.app/
