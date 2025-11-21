@@ -64,7 +64,7 @@ if st.button("🚀 立即生成", type="primary"):
             with st.spinner("AI 正在思考 CO-STAR 策略..."):
                 client = OpenAI(api_key=api_key, base_url=base_url)
                 response = client.chat.completions.create(
-                    model="moonshot-v1-8k",
+                    model="deepseek-chat",
                     messages=[
                         {"role": "system", "content": system_prompt},
                         {"role": "user", "content": user_input}
